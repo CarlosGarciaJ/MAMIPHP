@@ -9,7 +9,8 @@ class Usuarios extends CI_Controller {
         parent::__construct();
     }
 
-    public function index() {
+    public function index($alertas = '') {
+        $data['alertas'] = $alertas;
         $data['content'] = 'usuarios/login';
         $data['titulo'] = 'MAMI | Iniciar sesión';
         $this->load->view('includes/template', $data);
