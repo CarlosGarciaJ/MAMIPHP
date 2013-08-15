@@ -1,0 +1,9 @@
+section.contenido{text-align:justify;}
+section.contenido p{font-family:'QuicksandBook';font-size:.9em}
+section.PasoPaso{display:inline-block;background-repeat:no-repeat;background-size:contain;margin-right:1em;background-color:#fff;height:20em;width:16em}
+a.titulo{text-decoration:none;font-family:'calibrib';font-size:1.4em}
+section.contenedor-PasoPaso{position:absolute;top:20%;margin-left:18%;width:66em;sectiondisplay:inline-block}
+section.Img-Sigue-Pasos{display:inline-block;float:right}
+section.Sigue-Pasos{position:absolute;margin-left:19%;top:7%;width:35em}
+label.Sigue-Pasos{font-size:2em;color:#fff;display:inline-block;float:left;font-family:'calibrib'}
+section.titulos{text-align:center;margin-bottom:1em}
