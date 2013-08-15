@@ -6,8 +6,10 @@
         <link href="<?php echo base_url(); ?>css/normalize.css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>css/jqueryui.css" rel="stylesheet">
         <script src="<?php echo base_url(); ?>js/vendor/prefixfree.js"></script>
         <script src="<?php echo base_url(); ?>js/vendor/jquery.js"></script>
+        <script src="<?php echo base_url(); ?>js/vendor/jqueryui.js"></script>
         <script src="<?php echo base_url(); ?>js/main.js"></script>
     </head>
     <body>
@@ -22,7 +24,7 @@
                     <li><?php echo anchor('/', 'Como lo hacemos', ''); ?></li>
                     <li><?php echo anchor('/', 'Nuestro equipo', ''); ?></li>
                     <li><?php echo anchor('/', 'Haz parte', ''); ?></li>
-                    <li><?php echo anchor('/', 'Iniciar sesión', ''); ?></li>
+                    <li><?php echo anchor('#', 'Iniciar sesión', ''); ?></li>
                 </ul>
             </nav>
             <!--    #fbbb37 amarillo

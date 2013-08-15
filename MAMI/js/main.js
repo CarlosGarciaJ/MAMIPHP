@@ -1,8 +1,4 @@
 $(document).on('ready', iniciar_funciones);
-function iniciar_funciones(){
-    slider(3);
-    setInterval(cambiar_slide, 3000);
-}
 function cambiar_slide(){
     var total_slides = parseInt($('.slide').length);
     var slide_visible = parseInt($('.slide:visible').attr('data-slide'));
@@ -13,6 +9,17 @@ function cambiar_slide(){
         $('.slide').hide();
         $('.slide').eq(slide_visible++).fadeIn(1000);
     }
+}
+function iniciar_funciones(){
+    slider(3);
+    setInterval(cambiar_slide, 3000);
+    $('header nav ul li:last-child').on('click', function(){
+        $('#iniciar_sesion').dialog('open');
+    });
+    $('#iniciar_sesion').dialog({
+        autoOpen: false,
+        modal: true
+    });
 }
 function slider(slides){
     for (var i = 1; i <= slides; i++){
