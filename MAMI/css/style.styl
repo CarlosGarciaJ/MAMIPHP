@@ -48,6 +48,10 @@ header
 				a:hover
 					background #00ADBD
 					color #FFFFFF
+			li:last-child
+					border 0.1em solid #00ADBD
+img
+	border none
 #aliados
 	border-bottom 0.5em solid #00ADBD
 	color #00ADBD
@@ -64,8 +68,16 @@ header
 	p
 		margin 0
 		padding 0 0 0.5em
-#slider
+#content
 	background #00ADBD
-	max-height 20em
 	max-width 100%
-	padding 1em 0
+#slider
+	max-width 100%
+.slide
+	display none
+	img
+		margin-bottom -5px
+		max-width 1000px
+		width 100%
+.slide:first-child
+	display block

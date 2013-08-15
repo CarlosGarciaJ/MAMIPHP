@@ -11,8 +11,14 @@ header nav ul{list-style-type:none;margin:0;padding:0;}
 header nav ul li{display:inline-block;margin:0 -2px;vertical-align:middle;}
 header nav ul li a{color:#00adbd;display:block;padding:1em;text-decoration:none;transition:all .5s ease}
 header nav ul li a:hover{background:#00adbd;color:#fff}
+header nav ul li:last-child{border:.1em solid #00adbd}
+img{border:none}
 #aliados{border-bottom:.5em solid #00adbd;color:#00adbd;font-size:.8em;padding:1em 0;}
 #aliados figure{display:inline-block;margin-right:1em;max-width:5%;min-width:5em;vertical-align:middle;}
 #aliados figure img{width:100%}
 #aliados p{margin:0;padding:0 0 .5em}
-#slider{background:#00adbd;max-height:20em;max-width:100%;padding:1em 0}
+#content{background:#00adbd;max-width:100%}
+#slider{max-width:100%}
+.slide{display:none;}
+.slide img{margin-bottom:-5px;max-width:1000px;width:100%}
+.slide:first-child{display:block}

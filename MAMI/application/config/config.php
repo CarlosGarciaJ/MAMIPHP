@@ -17,7 +17,7 @@ if (!defined('BASEPATH'))
   | path to your installation.
   |
  */
-$config['base_url'] = 'http://mami.local/';
+$config['base_url'] = 'http://192.168.1.12/';
 
 /*
   |--------------------------------------------------------------------------
